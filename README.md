@@ -1,4 +1,4 @@
 # example
 
-![Voorbeeldafbeelding](./assets/example.png)
+![Voorbeeldafbeelding](assets/example.png)
 
