@@ -1,0 +1,69 @@
+/* Algemene stijl voor het formulier */
+.form-container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+/* Stijl voor labels */
+.form-group label {
+	display: block;
+	font-size: 1rem;
+	color: #333;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+/* Stijl voor invoervelden */
+.form-group input[type="text"] {
+	width: 90%;
+	padding: 10px;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	transition: border-color 0.3s;
+}
+
+.form-group input[type="text"]:focus {
+	border-color: #007bff;
+	outline: none;
+}
+
+/* Optioneel: voeg wat ruimte toe rond de knoppen */
+.btn {
+	display: block;
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 1rem;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: #0056b3;
+}
+
+.btn:disabled {
+	background-color: #75b1f1fb;
+	cursor: not-allowed;
+	color: tomato;
+}
+
+input.ng-invalid.ng-touched:invalid {
+	border: 1px solid red;
+}
+
+small {
+	color: orange;
+}
